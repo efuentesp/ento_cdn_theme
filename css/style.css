@@ -1,0 +1,91 @@
+#overlay-container, .overlay-element, .overlay-modal-background {
+ 	z-index:9999;
+}
+
+.login_site_logo {
+    width: 280px;
+    height: 200px;
+}
+
+div.gray-bg {
+	height:100vh;
+}
+
+tr>th>a {
+ 	color: #337ab7;
+}
+
+tr>td>a {
+	color: #337ab7;
+	font-weight: normal;
+}
+
+.highcharts-title tspan {
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #676a6c;
+}
+
+.highcharts-xaxis-title {
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #676a6c;
+}
+
+.field-name-field-carga-archivos-instruccion {
+	margin-bottom: 20px;
+}
+
+.field-name-field-carga-archivos-anexos {
+	margin-bottom: 40px;
+}
+
+#edit-submitted-archivo-plan-clase-ajax-wrapper {
+	margin-bottom: 30px;
+}
+
+#edit-submitted-archivo-estrategias-ensenanza-ajax-wrapper {
+	margin-bottom: 30px;
+}
+
+.webform-submit {
+  background-color: #1ab394;
+  border-color: #1ab394;
+  color: #FFFFFF;
+}
+.webform-submit:hover,
+.webform-submit:focus,
+.webform-submit:active,
+.webform-submit.active,
+.open .dropdown-toggle.webform-submit,
+.webform-submit:active:focus,
+.webform-submit:active:hover,
+.webform-submit.active:hover,
+.webform-submit.active:focus {
+  background-color: #18a689;
+  border-color: #18a689;
+  color: #FFFFFF;
+}
+.webform-submit:active,
+.webform-submit.active,
+.open .dropdown-toggle.webform-submit {
+  background-image: none;
+}
+.webform-submit.disabled,
+.webform-submit.disabled:hover,
+.webform-submit.disabled:focus,
+.webform-submit.disabled:active,
+.webform-submit.disabled.active,
+.webform-submit[disabled],
+.webform-submit[disabled]:hover,
+.webform-submit[disabled]:focus,
+.webform-submit[disabled]:active,
+.webform-submit.active[disabled],
+fieldset[disabled] .webform-submit,
+fieldset[disabled] .webform-submit:hover,
+fieldset[disabled] .webform-submit:focus,
+fieldset[disabled] .webform-submit:active,
+fieldset[disabled] .webform-submit.active {
+  background-color: #1dc5a3;
+  border-color: #1dc5a3;
+}
