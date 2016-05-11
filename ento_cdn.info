@@ -29,4 +29,4 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/animate.css
 
 scripts[] = js/inspinia.js
-scripts[] = js/plugins/pace.min.js
+scripts[] = js/plugins/peace/pace.min.js
