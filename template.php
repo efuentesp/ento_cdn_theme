@@ -158,7 +158,7 @@ function ento_cdn_form_alter(&$form, $form_state, $form_id) {
     drupal_set_title(t('Solicitar nueva contraseña'));
   }
   elseif ($form_id == 'user_login') {
-  drupal_set_title(t('Log in'));
+    drupal_set_title(t('Log in'));
   }
 }
 
@@ -181,6 +181,16 @@ function ento_cdn_form_user_login_block_alter(&$form, &$form_state, $form_id) {
   $markup = '<div class="clearfix">' . $markup . '</div>';
   $form['links']['#markup'] = $markup;
 
+}
+
+function ento_cdn_form_user_login_alter(&$form, &$form_state) {
+  $form['name']['#title'] = Null;
+  $form['name']['#attributes'] = array('placeholder' => t('Usuario'));
+  $form['pass']['#title'] = Null;
+  $form['pass']['#attributes'] = array('placeholder' => t('Contraseña'));
+  #$form['actions']['submit']['#value'] = t('Enviar Contraseña');
+
+  $form['actions']['submit']['#attributes'] = array('class' => array('block full-width m-b'));
 }
 
 function ento_cdn_form_user_pass_alter(&$form, &$form_state) {
